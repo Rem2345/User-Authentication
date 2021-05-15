@@ -1,0 +1,21 @@
+<% layout('layouts/boiler') %>
+<div class="container">
+    <div class="text-auto pd-auto">
+        
+        <% if(currentUser) {%>
+        <h1>Succesfully Entered</h1>
+        <h2>Please logout by clicking on the navigation bar</h2>
+        <h2>Find the Login Button on the navigation bar after logging out for authentication puposes.</h2>
+        <% } %>
+        <% if(!currentUser) {%>
+            <h1>Instructions:</h1>
+            <ul>
+                <li>If you are new please login</li>
+                <li>Find the Register Button on the navigation bar for creating account.</li>
+                <li>Please login if you have account</li>
+                <li>Find the Login Button on the navigation bar.</li>
+                <li>Find the Logout Button on the navigation bar after logging in, you cant see that button right now.</li>
+            </ul>
+            <% } %>
+    </div>
+</div>
