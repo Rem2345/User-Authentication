@@ -4,7 +4,8 @@
   "description": "This is used for the user signing in and can be able to login later with credentials",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "Rohith",
   "license": "ISC",
